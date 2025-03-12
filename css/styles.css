@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+}
+.sketch {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
